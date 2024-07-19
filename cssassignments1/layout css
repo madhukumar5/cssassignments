@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="layout.css">
+    <style>
+        
+header{
+   
+   background-color: white;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   display: flex;
+   text-decoration: none;
+   padding: 22px 15%;
+
+}
+
+.navlist{
+   display: flex;
+   align-items: center;
+}
+ul li{
+   list-style-type: none;
+   margin: 10px;
+   padding-right: 5px;
+}
+ul li a{
+   color: black;
+   font-weight: 600;
+   font-size: 18px;
+}
+
+.grid{
+   display: grid;
+   grid-template-columns: repeat(autofit , minmax(270px , 1fr));
+   gap: 15px;
+}
+        
+    </style>
+</head>
+<body>
+    <header>
+       
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About </a></li>
+            <li><a href="#services">Skills</a></li>
+            <li><a href="#project">Project</a></li>
+          
+        </ul>
+        
+        
+    </header>
+   <section>
+    <h1 class="heading">GRID BOX</h1>
+    <div class="grid">
+        <div class="html">
+            <h3>html</h3>
+            <p>html is like a skeleton of web page</p>
+        </div>
+
+        <div class="html">
+            <h3>CSS</h3>
+            <p>css is used to design a web page</p>
+        </div>
+
+    </div>
+   </section>
+</body>
+</html>
