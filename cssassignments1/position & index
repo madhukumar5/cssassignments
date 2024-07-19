@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="layout.css">
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.relativ{
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+}
+.relative{
+    position: relative;
+    left: 20px;
+    border: 2px solid black;
+    width: 100%;
+}
+
+.static{
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.stat{
+    position: static;
+    border: 2px solid red;
+}
+
+.fixed{
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+}
+.fix{
+    position: fixed;
+    border: 2px solid purple;
+}
+
+.absolute{
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+.abs{
+    position: absolute;
+}
+
+.stick{
+    margin: 20px;
+    padding: 20px;
+}
+
+.stcky{
+    position: -webkit-sticky;
+    position: sticky;
+    border: 2px solid black;
+    top: 0;
+    padding: 5px;
+    background-color: blanchedalmond;
+   
+}
+
+.index{
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+img{
+    z-index: -1;
+}
+    </style>
+</head>
+<body>
+   
+    <div class="relativ">
+        <h1>position property-relative </h1>
+        <div class="relative">
+        <p>this container has relative property</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore eveniet ab vel excepturi dicta voluptatibus nam eaque repellendus iure minus, aspernatur velit quas, quisquam pariatur sapiente blanditiis alias. Suscipit nobis maiores vitae, nostrum optio tenetur quia repudiandae ullam commodi adipisci? Blanditiis porro sint obcaecati corporis. Sed praesentium ea ducimus ipsa.</p>
+    </div>
+
+
+    <div class="stick">
+        <h1>position property-stick </h1>
+        <div class="stcky">
+            <p>this container has sticky property</p>
+        </div>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae inventore molestias repellendus excepturi autem aperiam debitis nobis pariatur distinctio unde.</p>
+    </div>
+
+    <div class="static">
+        <h1>position property-static</h1>
+        <div class="stat">
+        <p>this container has static property</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio inventore repellendus adipisci ut sit ducimus voluptatibus, nihil ipsum impedit repudiandae consectetur saepe consequuntur laboriosam ea pariatur quisquam odio rerum? Natus?</p>
+    </div>
+    
+
+    <div class="fixed">
+        <h1>position property-fixed</h1>
+        <div class="fix">
+        <p>this container has fcixed property it always stay on same page </p>
+    </div>
+    </div>
+
+    <div class="absolute">
+        <h1>position property-absolute </h1>
+        <div class="abs">
+        <p>this container has absolute property</p>
+    </div>
+    </div>
+
+    <div class="index">
+
+        <h1>this is z index</h1>
+        
+        <p>Lorem ipsum dolor sit amet <img src="css.jpeg" alt="">consectetur adipisicing elit. Ex, culpa doloremque officiis minus aspernatur magni error in ea reprehenderit dolor!</p>
+
+    </div>
+    
+</body>
+</html>
