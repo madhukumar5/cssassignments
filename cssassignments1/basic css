@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background-image: url(darknimg.jpeg);
+            background-size: cover;
+           background-repeat: no-repeat;
+           
+        }
+        .para{
+            margin: 0;
+            padding: 0;
+            line-height: 30px;
+            font-size: 22px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(255, 255, 255);
+        }
+        .para h1{
+            font-family: sans-serif;
+            color: rgb(250, 157, 157);
+            text-decoration-line: underline;
+            font-weight: 900;
+        }
+        .css{
+            padding: 0;
+            margin: 0;
+            color: white;
+            line-height: 30px;
+          
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .css h1{
+            color: rgb(151, 238, 255);
+            font-family: sans-serif;
+            text-decoration-line: underline;
+            font-weight: 700;
+        }
+        .img{
+            padding: 0;
+            margin: 0;
+            color: white; 
+            font-weight: 500;
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           
+        }
+        .img h1{
+            text-decoration-line: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="para">
+        <h1>The paragraph is about HTML</h1>
+        <p>The first version of HTML was written by Tim Berners-Lee in 1993. Since then, there have been many different versions of HTML. The most widely used version throughout the 2000's was HTML 4.01, which became an official standard in December 1999.
+
+            Another version, XHTML, was a rewrite of HTML as an XML language. XML is a standard markup language that is used to create other markup languages. Hundreds of XML languages are in use today, including GML (Geography Markup Language), MathML, MusicML, and RSS (Really Simple Syndication). Since each of these languages was written in a common language (XML), their content can easily be shared across applications. This makes XML potentially very powerful, and it's no surprise that the W3C would create an XML version of HTML (again, called XHTML). XHTML became an official standard in 2000, and was updated in 2002. </p>
+
+    </div>
+    <div class="css">
+        <h1>
+            The paragraph is about CSS
+        </h1>
+        <p>
+            1994- HÃ¥kon Wium Lie proposed the idea of CSS.
+1996- The first version of CSS was invented.
+1998- CSS 2 was released and work on CSS 3 began. CSS 3 was very different from the other versions, fot instead of being a single monolithic specification, it was published as a set of separate documents known as modules. Each module dealt with a relatively small subset of the overall specification, and either added new features or refined and extended existing features. All additions and enhancements to the specification were written in order to be backward-compatible with older versions of CSS.
+        </p>
+    </div>
+    <section class="img">
+    <div class="img1">
+        <h1>
+            The Paragraph is about image tag
+        </h1>
+        <p>
+            image tag used in html is to insert the image for webpage through css we can design the images , by using properies like background-image ,bacnkground-position , background-repeat.
+        </p>
+    </div>
+</section>
+</body>
+</html>
